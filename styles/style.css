@@ -1,0 +1,19 @@
+.header1{
+    display: flex;
+    justify-content: space-between;
+}
+.header-text{
+    margin-top: 67px;
+    margin-left: 132px;
+
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    width: 581px;
+    height: 24px;
+    margin-top: 87px;
+    margin-right: 80px;
+
+    
+}
