@@ -224,10 +224,15 @@
     font-size: 17px;
     margin-bottom: 5px;
 }
-.buttom-read{
+
+
+.buttom-read-text{
+    font-size: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;  
+    color: #FFFFFF; 
     width: 120px;
     height: 35px;
-    
     border-radius: 38px;
     border-width: 2px;
     border-color:#FFFFFF;
@@ -236,17 +241,10 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    transition: 0.3s;
+    transition: 0.3s; 
 }
 .display:hover{
     color: #4B647E;
     background-color: #FFFFFF; 
     
-}
-
-.buttom-read-text{
-    font-size: 10px;
-    font-family: 'Roboto Flex', sans-serif;
-    text-align: center;  
-    color: #FFFFFF;  
 }
