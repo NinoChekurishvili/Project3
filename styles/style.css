@@ -80,7 +80,7 @@
     width: 400px;
     height: 70px;
     font-size: 13px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Flex', sans-serif;
 }
 .buttom-wave{
     width: 164px;
@@ -139,7 +139,7 @@
     text-align: center;
     font-size: 14px;
     color: #747474;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Flex', sans-serif;
     line-height: 1.6;
     
    
@@ -163,24 +163,31 @@
     justify-content:center;
     align-items: center;
     align-content: space-around;
+
 }
 .first{
     background-color: #FBBA77;
+    background-image: linear-gradient(to bottom right,#FBBA77, #DFA871);
 }
 .second{
     background-color: #41EAE3;
+    background-image: linear-gradient(to bottom right,#41EAE3, #2293B7);
 }
 .third{
     background-color: #69529F;
+    background-image: linear-gradient(to bottom right,#69529F, #463864);
 }
 .fourth{
     background-color: #4386D2;
+    background-image: linear-gradient(to bottom right,#4386D2, #0962C5);
 }
 .fifth{
     background-color: #A5A2F6;
+    background-image: linear-gradient(to bottom right,#A5A2F6, #564FD6);
 }
 .sixth{
     background-color: #FF8088;
+    background-image: linear-gradient(to bottom right,#FF8088, #984141);
 }
 .image-div{
     display: flex;
@@ -207,7 +214,7 @@
     display: flex;
     text-align: center;
     font-size: 10px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Flex', sans-serif;
     color: #FFFFFF;
     line-height: 1.6;
 }
@@ -219,18 +226,27 @@
 }
 .buttom-read{
     width: 120px;
-    height: 33px;
-    background-color: #FFFFFF;
+    height: 35px;
+    
     border-radius: 38px;
+    border-width: 2px;
+    border-color:#FFFFFF;
+    border-style: solid;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    
+    transition: 0.3s;
+}
+.display:hover{
+    color: #4B647E;
+    background-color: #FFFFFF; 
     
 }
+
 .buttom-read-text{
     font-size: 10px;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;    
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;  
+    color: #FFFFFF;  
 }
